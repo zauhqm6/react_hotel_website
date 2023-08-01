@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200;300;400;500;600;700;800&display=swap');
+
+.dosis {
+    font-family: 'Dosis', sans-serif;
+}
+
+.quic li {
+    padding: 13px 0px;
+}
+
+.footer {
+    background-color: #212121;
+}
+.footer h4 {
+    color: white;
+    text-transform: uppercase;
+}
+.address li {
+    padding: 18px 0px;
+}
+.address p {
+    color: white;
+    margin: 0;
+}
+.social a {
+    position: relative;
+    display: inline-block;
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -o-border-radius: 50%;
+    -ms-border-radius: 50%;
+    text-align: center;
+    margin-right: 20px;
+    transition: all .5s;
+
+}
+.social a:before, .social a:after {
+    content: "";
+    display: block;
+    position: absolute;
+    background: transparent;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    border-radius: 50%;
+    transition: .3s all;
+    border: 3px solid;
+}
+.social .fb a {
+    background: #6788ce;
+}
+.social .fb a:before, .social .fb a:after {
+    border-color: #6788ce;
+}
+
+.social a i {
+    color: #fff;
+    line-height: 34px;
+    font-size: 1em;
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+}
+.social a:hover:after {
+    -webkit-transform: scale(1.5);
+}
+.social .twiter a {
+    background: #00ACEE;
+}
+.social .twiter a:before, .social .twiter a:after {
+    border-color: #00ACEE;
+}
+
+.social .pint a {
+    background: #fe4445;
+}
+.social .pint a:before, .social .pint a:after {
+    border-color: #fe4445;
+}
+
+.social .google a {
+    background: #DD4B39;
+}
+.social .google a:before, .social .google a:after {
+    border-color: #DD4B39;
+}
+
+.social .drible a {
+    background: #f85993;
+}
+.social .drible a:before, .social .drible a:after {
+    border-color: #f85993;
+}
+.newsletter {
+    text-align: center;
+    border: 1px solid #515254;
+    margin:3em 0em;
+    width: 97%;
+    position: relative;
+    padding: 2em 1em;
+}
+.newsletter h4 {
+    color: #fff;
+    padding: 24px 0 10px 0;
+    font-weight: 300;
+    font-size: 1.4em;
+    margin-bottom: 0.8em;
+}
+.newsletter p {
+    color: white;
+}
+.newsletter input[type="email"] {
+    padding: 0.8em 1.5em;
+    border: 1px solid #3a3939;
+    width: 75%;
+    text-align: left;
+    color: #212121;
+    background: #fff;
+    outline: none;
+    float: left;
+}
+.newsletter input[type="submit"]:hover {
+    background: #00acee;
+}
+
+.newsletter input[type="submit"] {
+    background: #2baf2b;
+    padding: 0.8em 1em;
+    border: none;
+    outline: none;
+    -webkit-transition: all 0.2s ease 0s;
+    -moz-transition: all 0.2s ease 0s;
+    -o-transition: all 0.2s ease 0s;
+    -ms-transition: all 0.2s ease 0s;
+    transition: all 0.2s ease 0s;
+    width: 20%;
+    text-transform: uppercase;
+    color: #fff;
+    letter-spacing: 1px;
+}
+.newsletter1 {
+    position: relative;
+    padding: 0.5em 1em;
+}
+
+.afterFooter {
+    text-align: center;
+    background: #00acee;
+    padding: 1em 0;
+}
+.afterFooter p{
+    margin: 0;
+}

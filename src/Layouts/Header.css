@@ -1,0 +1,159 @@
+
+.pre-header {
+    background-color: #1a1a1a;
+}
+
+
+a {
+    text-decoration: none;
+    color: white;
+}
+a:hover {
+    color: white;
+}
+
+.facbook,
+.instagram,
+.twitter,
+.pintereset {
+/* width: 30px; */
+    background-color: #ff401b;
+    display: flex;
+    justify-content: center;
+    padding: 3px 9px;
+    margin-right: 7px;
+    transition: all 0.3s ease-in-out;
+    outline: 1px solid #ff401b;
+
+
+}
+i.fa {
+    color: white;
+}
+
+.facbook:hover,
+.instagram:hover,
+.twitter:hover,
+.pintereset:hover {
+    background-color: black;
+    outline: 1px solid #ffcc33;
+    transition: all 0.3s ease-in-out;
+}
+.facbook:hover i.fa,
+.instagram:hover i.fa,
+.twitter:hover i.fa,
+.pintereset:hover i.fa {
+    color: #ffcc33;
+}
+.mr-2 {
+    margin-right: 10px;
+}
+.mr-2 i.fa {
+    color: #ff401b;
+}
+.phone i.fa {
+    transform: rotate(45deg);
+}
+.blue-t {
+    color: #00acee;
+    font-size: 50px;
+    font-weight: 700;
+}
+.logo {
+    display: inline-block;
+}
+.logo h1 {
+    font-size: 30px;
+    font-weight: 700;
+}
+.logo p {
+    color: #ffcc33;
+    font-size: 10px;
+    line-height: 1;
+    text-align: right;
+    margin-top: -6px;
+    font-weight: 500;
+    letter-spacing: 3px;
+}
+.nav ul {
+    display:flex;
+    /* gap: 10px; */
+}
+.nav ul li {
+    padding:0px 25px 0px 0px;
+    margin: 0px 10px;
+    border-right: 1px solid white;
+}
+.nav ul li:last-child {
+    border-right: none;
+}
+
+.nav-link {
+    color:white ;
+    letter-spacing: 3px;
+}
+.nav-link:hover {
+    color: #ff401b;
+}
+.overlay {
+    background-color: #0000002b;
+}
+.search-btn{
+    display: flex;
+    justify-content: end;
+}
+.px-7 {
+    padding-right: 5rem;
+    padding-left: 5rem;
+}
+.search-btn button {
+    background: #00acee;
+    padding: 10px 16px;
+    font-size: 20px;
+    border: none;
+    outline: none;
+}
+.input{
+    transition: all 0.3s ease-in-out;
+
+}
+
+.input input[type=search] {
+    width: 100%;
+    background: rgba(0, 0, 0, 0.75);
+    padding: 1em 2em;
+    color: white;
+    border: none;;
+    transition: all 0.3s ease-in-out;
+    outline: none;
+}
+.input input[type=search]:focus {
+    border: none;
+    outline: none;
+}
+.hidden {
+    display: none;
+  }
+.b-bot {
+    border-bottom: 1px solid white;
+    transition: all 0.3s ease-in-out;
+}
+.b-bot-r {
+    border-bottom: 1px solid #ff401b;
+    transition: all 0.3s ease-in-out;
+
+}
+.fa-close:before, .fa-multiply:before, .fa-remove:before, .fa-times:before, .fa-xmark:before {
+    content: "\f00d";
+    font-size: 27px;
+}
+
+
+.bread-crumb-overlay {
+    background-image: url(https://p.w3layouts.com/demos_new/30-01-2017/resort-demo_Free/1920654907/web/images/4.jpg);
+    min-height: 200px;
+}
+.bread-crumb-title {
+    background: #00acee;
+    text-align: center;
+}
